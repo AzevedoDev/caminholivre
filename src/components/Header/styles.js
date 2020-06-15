@@ -15,6 +15,7 @@ export const Wrapper = styled.div`
   justify-content: space-around;
   align-items: center;
   margin-top: 36px;
+  margin-bottom: 140px;
 `
 export const Link = styled(GLink)`
   font-family: "Varela Round", sans-serif;

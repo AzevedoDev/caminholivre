@@ -15,5 +15,5 @@ export default function Logo() {
     }
   `)
 
-  return <Img fixed={logo.childImageSharp.fixed} />
+  return <Img durationFadeIn={100} fixed={logo.childImageSharp.fixed} />
 }

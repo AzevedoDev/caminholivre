@@ -620,3 +620,15 @@ pre tt:after {
     font-size: 100%;
   }
 }
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 1366px;
+}
+@media (max-width: 1366px) {
+  .mainContainer {
+    width: 100%;
+  }
+}
